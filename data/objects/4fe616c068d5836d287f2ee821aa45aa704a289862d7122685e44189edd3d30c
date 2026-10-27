@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body, #mapDiv {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mapDiv"></div>
+      
+    <script nonce="8wb5qByqtv9HUch1RRAdsg">
+      function onEmbedLoad() {
+        initEmbed([null,null,null,null,null,[null,null,null,null,[["directions",[null,null,null,[null,null,[[["Columbia Gorge Discovery Center \u0026 Museum",null,null,null,null,null,null,null,null,null,null,"N082GzjBwLd9NFLsAPQisYk1CXk0GZZU"],["Goldendale, Washington 98620",null,null,null,null,null,null,null,null,null,null,"2epPG0nu-7dtY3V44o23JzW-3GkJLZZU"],["Klickitat, Washington",null,null,null,null,null,null,null,null,null,null,"LCFPG6yVybehqnjauTZslYvwIAo1OpZU"],["Lyle, Washington 98635",null,null,null,null,null,null,null,null,null,null,"9To8GziPtbfMcuS_I1PKP3cLHEPuGZZU"],["Everybody's Brewing",null,null,null,null,null,null,null,null,null,null,"9G5BG7rOlrdzYk3ZuoRr408NbPz9EZZU"],["Bridge of the Gods",null,null,null,null,null,null,null,null,null,null,"a243GwnyV7fDL7NRWZxc17cgtWwK55VU"],["Starvation Creek Falls",null,null,null,null,null,null,null,null,null,null,"dlM7G2bPd7fFogcH6ahfvwUfZ_IVCpZU"],["Rowena Crest Viewpoint",null,null,null,null,null,null,null,null,null,null,"56E6G-Uzs7eDMQQBcdv1bzlgqi0iGpZU"],["Columbia Gorge Discovery Center \u0026 Museum",null,null,null,null,null,null,null,null,null,null,"N082GzjBwLd9NFLsAPQisYk1CXk0GZZU"]],null,null,0,null,[[null,null,null,null,null,null,null,3],[0,0],null,null,null,[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,[],null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,["CA","FR","JP","NO"],null,null,null,null,null,null,null,null,1,null,null,1,null,null,1,null,null,1,1,null,null,null,null,["US","SE","JP"],1,1,null,null,null,null,null,null,null,null,null,null,1,1,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,1,null,null,null,null,null,null,1,null,1,null,null,null,1,null,null,null,1,1,null,1,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,300,100],0,null,null,null,null,null,null,null,null,null,null,null,null,[0,3],null,null,null,null,null,null,null,null,null,null,0],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1793053022,null,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[18],null,null,null,[null,null,null,null,null,[1,1],null,1,null,10]],null,null,null,null,null,null,null,null,null,null,"ChCmgAYq9JVt3WK37z89TMK1Egd1c193ZXN0GAog36L/1gYoADAAOJ+TgNcG"]]]]],null,["en_US"],[null,null,null,"/maps/api/js/ApplicationService.GetEntityDetails","/maps/embed/upgrade204",null,"/maps/embed/record204"],null,null,null,null,null,null,null,null,"XtHfavHGN4ik0PEP3e600AE",null,null,null,[[[356485.4189180473,-121.36077625,45.73024415],[0,0,0],null,13.10000038146973,null,[0,0]],null,0,null,[[[45.6544055,-121.2104392],[45.8222297,-120.8226231],[45.8170668,-121.1525716],[45.6932085,-121.2838088],[45.7273076,-121.4853446],[45.6617579,-121.8973175],[45.6872822,-121.688489],[45.6827367,-121.2992539],[45.6544055,-121.2104392]],["Columbia Gorge Discovery Center \u0026 Museum, 5000 Discovery Dr, The Dalles, OR 97058","Goldendale, Washington 98620","Klickitat, Washington","Lyle, Washington 98635","Everybody's Brewing, 177 E Jewett Blvd, White Salmon, WA 98672","Bridge of the Gods, 806 US-30, Cascade Locks, OR 97014","Starvation Creek Falls, Columbia River Highway, Cascade Locks, OR 97014","Rowena Crest Viewpoint, 6500 Historic Columbia River Hwy, Mosier, OR 97040","Columbia Gorge Discovery Center \u0026 Museum, 5000 Discovery Dr, The Dalles, OR 97058"],0]],null,null,null,0,null,null,null,null,null,null,[1]]);
+      }
+      function onApiLoad() {
+        var embed = document.createElement('script');
+        embed.src = "https://maps.gstatic.com/maps-api-v3/embed/js/66/11a/init_embed.js";
+        document.body.appendChild(embed);
+      }
+    </script>
+    <link rel="preload" href="https://maps.gstatic.com/maps-api-v3/embed/js/66/11a/init_embed.js" nonce="8wb5qByqtv9HUch1RRAdsg" as="script" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;paint_origin=&amp;libraries=geometry,search&amp;v=weekly&amp;loading=async&amp;language=en_US&amp;experimentation=allowed&amp;callback=onApiLoad" nonce="8wb5qByqtv9HUch1RRAdsg" async defer></script>
+  </body>
+</html>

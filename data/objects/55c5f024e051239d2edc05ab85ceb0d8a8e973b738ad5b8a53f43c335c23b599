@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([["6521"],{96592(e,a,p){p.r(a),p.d(a,{adapter:()=>s.A,pattern:()=>r.c});var r=p(86078),s=p(8984)}}]);
