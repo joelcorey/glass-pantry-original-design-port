@@ -1,0 +1,39 @@
+<!DOCTYPE html><html><head><base href="/">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Wix Comments</title>
+		<meta name="description" content="Wix Comments Application">
+		<meta name="viewport" content="width=device-width">
+
+		<script type="text/javascript">
+			(function() {
+				var compId = /[&?]compId=([^&]+)/.exec(window.location.search);
+				try {
+					parent.postMessage(JSON.stringify({
+						intent: 'TPA2',
+						callId: 1,
+						type: 'appIsAlive',
+						compId: compId ? compId[1] : '',
+						deviceType: 'desktop',
+						data: {version: '1.425.0'}
+					}), '*');
+				} catch (e) {
+					console.error(e);
+				}
+			})();
+			Function.prototype.bind||(Function.prototype.bind=function(a){if("function"!=typeof this)throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");var b=Array.prototype.slice.call(arguments,1),c=this,d=function(){},e=function(){return c.apply(this instanceof d?this:a,b.concat(Array.prototype.slice.call(arguments)))};return this.prototype&&(d.prototype=this.prototype),e.prototype=new d,e});
+		</script>
+
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<style>html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}body{background-color:transparent;margin:0;line-height:1.42857143}*{box-sizing:border-box}</style><link rel="stylesheet" href="styles.d5a5e84802ffd186.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.d5a5e84802ffd186.css"></noscript></head>
+	<body>
+		<script type="text/javascript" src="//static.parastorage.com/services/js-sdk/1.425.0/js/wix.min.js"></script>
+		<comments-widget-app></comments-widget-app>
+
+		<script>
+			var _commentsData = {"settings":{"i":{"approveComments":true,"bootstrapTime":"2017-04-29T14:51:35.710Z","emailNotification":"_notify","enableEmoji":true,"enableImageAttachments":true,"enableNewCompose":true,"enableRating":true,"enableReplyNotification":true,"enableVotes":true,"enableWebsite":true,"exp":{"freeNotifications":true},"hideSocial":false,"optionalEmailBox":true,"replies":"users","showSocialSharing":true,"version":1},"w":{"bootstrapTime":1600710960666,"comment":{"background":"$color-8","textColor":"$color-1","textColorInherit":true,"transparentBackground":true},"commentsPerPage":10,"count":{"messages":3},"enableVK":false,"lang":"en","settingsOpened":false,"version":9,"widget":{"background":"$color-1","border":{"color":"$color-6","round":true,"show":false,"width":1},"buttonColor":"$color-8","fontSize":14,"textColor":"$color-5","titleSize":24,"transparentBackground":false}}},"comments":{"-MWsgtFfbB5N3gsuDXVD":{"author":"Chillibean","page":"http:\/\/www.theglasspantry.com\/care-and-keeping-sourdough-starter","pageTitle":"Care and Keeping of Sourdough Starter","path":"\/care-and-keeping-sourdough-starter","text":"Great sourdough guide! This is really informative for anyone thinking that sourdough is difficult to keep.. with these steps anyone can do it !\n","thread":{"-MYeFSZPcfqyzicf-0uu":{"author":"Melisa","page":"http:\/\/www.theglasspantry.com\/care-and-keeping-sourdough-starter","text":"Thank you so very much!","time":1618837887325,"userId":"9acc1803bb49d8e1f565ad16cecad0ab","userPic":"$profile:7ab789456869965485e7389825cfb8d0.jpg","userType":"email"}},"time":1616932741015,"userId":"visitor","userType":"anonymous","voteData":{"5a40b35c2515c23c21f16e468421243355ceb8618cfa837be79fea7f916f838c":1},"votes":1},"-Mi27JvQRf0O5P_N1MRp":{"author":"Judy Sasim","page":"http:\/\/www.theglasspantry.com\/care-and-keeping-sourdough-starter","pageTitle":"Care and Keeping of Sourdough Starter","path":"\/care-and-keeping-sourdough-starter","text":"AWSOME. Info! Thanx!😁.","thread":{"-Ml1Azuqz4hD1f2ZgRLb":{"author":"Melisa","page":"http:\/\/www.theglasspantry.com\/care-and-keeping-sourdough-starter","text":"Thank you so much Judy!","time":1633198014203,"userId":"9acc1803bb49d8e1f565ad16cecad0ab","userPic":"$profile:7ab789456869965485e7389825cfb8d0.jpg","userType":"email"}},"time":1629992604551,"userId":"visitor","userType":"anonymous","voteData":{"5a40b35c2515c23c21f16e468421243355ceb8618cfa837be79fea7f916f838c":1},"votes":1},"-NAlChKEb9Qozvf-BWse":{"author":"Lu","notifications":false,"page":"http:\/\/www.theglasspantry.com\/care-and-keeping-sourdough-starter","pageTitle":"Care and Keeping of Sourdough Starter","path":"\/care-and-keeping-sourdough-starter","text":"Very helpful. I’m growing my first starter and the vid I was following was a bit vague.  Thanks for making it a bit clearer.  \n\n","thread":{"-NAoCnyOe9ZfXSjKQc6C":{"author":"Melisa","page":"http:\/\/www.theglasspantry.com\/care-and-keeping-sourdough-starter","pageTitle":"Care and Keeping of Sourdough Starter","path":"\/care-and-keeping-sourdough-starter","text":"Thank you Lu! Good luck with your new starter 👍","time":1661953816640,"userId":"9acc1803bb49d8e1f565ad16cecad0ab","userPic":"$profile:7ab789456869965485e7389825cfb8d0.jpg","userType":"email"}},"time":1661904279579,"userId":"489f34de45661c896d398eea32d42e00","userType":"email","voteData":{"5a40b35c2515c23c21f16e468421243355ceb8618cfa837be79fea7f916f838c":1},"votes":1},"-NwvVE00U87-Wb4mLicE":{"author":"Donna","notifications":true,"page":"http:\/\/www.theglasspantry.com\/care-and-keeping-sourdough-starter","pageTitle":"Care and Keeping of Sourdough Starter","path":"\/care-and-keeping-sourdough-starter","text":"I just received some starter I ordered online. (about 4 oz). The only instructions were to feed it 4 oz each flour &water, and let sit for 4-12 hours before using in a recipe. If you're not going to bake, feed it 12-24 hrs after last feeding; can store in the fridge.What I'm wondering is, when do you discard? How much do you feed it if you're not going to bake? So confusing!","thread":{"-NwvhqGyg9FN5zgc1qHZ":{"author":"Melisa Smith","notifications":true,"page":"http:\/\/www.theglasspantry.com\/care-and-keeping-sourdough-starter","pageTitle":"Care and Keeping of Sourdough Starter","path":"\/care-and-keeping-sourdough-starter","text":"Hi Donna. After feeding your starter a few times it will become much greater in volume. I usually discard or make something using the \"discard\" after 2 feedings. Some people like to discard before each feeding but if you are trying to bulk up your starter for baking you will need the volume so I like to discard less often. Feel free to stop feeding it and put it in the fridge if your not going to be baking with it. It will keep for a long time (weeks) like that. After removing it from the refrigerator, feed it equal parts flour and water once or twice and let it stay at room temperature until you see the bubbling activity before using it for baking. Hope that helps. Let me know if you have any questions. Happy Baking!","time":1714693825741,"userId":"9acc1803bb49d8e1f565ad16cecad0ab","userType":"email"}},"time":1714690257492,"userId":"de427ec6271ec531dac89fe6905f58f3","userType":"email"}},"texts":null};
+		</script>
+	<script src="runtime.7201a52bbac2880c.js" type="module"></script><script src="polyfills.3051bed40b33346e.js" type="module"></script><script src="main.c758a124e7bab2c7.js" type="module"></script>
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"40eb768d9cb948f4bc365121fddac224","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body></html>
