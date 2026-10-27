@@ -1,0 +1,2 @@
+"use strict";(self.webpackJsonp__wix_communities_blog_ooi=self.webpackJsonp__wix_communities_blog_ooi||[]).push([[3639],{3483(o,i,e){e.r(i),e.d(i,{default:()=>l});var s=e(5349);const l={localizePost:s.yY,localizeLikeCount:s.gl}}}]);
+//# sourceMappingURL=localization-api.chunk.min.js.map

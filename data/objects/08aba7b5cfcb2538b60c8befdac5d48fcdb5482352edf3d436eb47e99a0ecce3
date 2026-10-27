@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html><head><title>Site Search</title>	
+	<link rel="stylesheet" type="text/css" href="https://wix-instantsearchplus-ssl.akamaized.net/wix_widget/css/wix_instantsearchplus_style-V3.css?v=2026.05.03a">
+	<script type="text/JavaScript" src="//static.parastorage.com/services/js-sdk/1.537.0/js/wix.min.js"></script>
+</head>
+<script type="text/javascript">var is_ie8 = false;</script>
+<!--[if IE 8]><script type="text/javascript">is_ie8 = true;</script><![endif]-->
+<body class="acp_modal_body" id="acp_modal_body" style="display:none;background-color:transparent;min-height:45px;">			
+	<center>
+		<div role="search" role="search" class="search-container" style="margin-top:2px;margin-bottom:2px;">		
+			<input tabindex=0 aria-label="Search" type="search" autocapitalize="off" autocorrect="off" id='acp_magento_search_id_main_page' class="search-box typing_box"  data-placeholder-live="false"  onblur="search_blur()" onclick="search_focus()"/>
+			<input tabindex=-1 type="search" id="grey" class="search-box grey" style="z-index:0;" readonly/>			
+			<div title="Search" id="isp_icon_id" class="isp_transparent_icon" onclick="api_do_full_text_search()"> &nbsp; </div>
+		</div>		
+	</center>
+	<div id="bottom_pad" style="height:5px"> </div>
+	<script type="text/javascript" src="https://wix-instantsearchplus-ssl.akamaized.net/wix_widget/js/wix_instantsearchplus_widget-V3.min.js?v=2026.04.28d"></script>
+	<div style="display:inline;"><img id="ggl_retarget_id" height="1" width="1" style="border-style:none;"/></div>	
+</body>
+</html>
