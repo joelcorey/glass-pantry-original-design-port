@@ -1,0 +1,44 @@
+
+> glass-pantry-preservation-port@1.0.0 build
+> next build
+
+▲ Next.js 16.2.6 (Turbopack)
+- Experiments (use with caution):
+  ⨯ serverSourceMaps
+
+  Creating an optimized production build ...
+Turbopack build encountered 1 warnings:
+./lib/archive.ts:12:88
+The file pattern ('/ROOT/data/objects/' <dynamic> | '/ROOT/data/objects' <dynamic>) matches 121748 files in [project]/
+  [90m10 |[0m ...lace([35m/%7E/gi[0m,[32m'~'[0m)];
+  [90m11 |[0m ...
+[31m[1m>[0m [90m12 |[0m ...[90mturbopackIgnore: true */[0m path.join(root,[32m'objects'[0m,entry.file)); }
+  [90m   |[0m                             [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m13 |[0m ...[35m\]\\]/g[0m,[32m'\\$&'[0m)).join([32m'|'[0m);
+  [90m14 |[0m ...[32m'=(])\\/\\/)([0m${escapedHosts[32m})`[0m, [32m'g'[0m);
+  [90m15 |[0m ...
+
+Overly broad patterns can lead to build performance issues and over bundling.
+
+Import trace:
+  App Route:
+    ./lib/archive.ts
+    ./app/[[...path]]/route.ts
+
+
+✓ Compiled successfully in 2.6s
+  Running TypeScript ...
+  Finished TypeScript in 804ms ...
+  Collecting page data using 4 workers ...
+  Generating static pages using 4 workers (0/2) ...
+✓ Generating static pages using 4 workers (2/2) in 163ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /_not-found
+└ ƒ /[[...path]]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

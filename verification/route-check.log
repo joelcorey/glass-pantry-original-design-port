@@ -1,0 +1,24 @@
+Checked 100 routes
+Checked 200 routes
+Checked 300 routes
+Checked 400 routes
+Checked 500 routes
+Checked 600 routes
+Checked 700 routes
+Checked 800 routes
+Checked 900 routes
+Checked 1000 routes
+Checked 1100 routes
+Checked 1200 routes
+Checked 1300 routes
+Checked 1400 routes
+{
+  "routes": 1412,
+  "html_exact_after_url_normalization": 1408,
+  "redirects": 4,
+  "original_404s": 15,
+  "asset_samples": 145,
+  "failures": [],
+  "missing_internal_links": 14,
+  "uncaptured_route_status": 404
+}

@@ -1,0 +1,517 @@
+{
+  "homepage": "http://localhost:3000/",
+  "image_requests": [
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_416c1d77ae194a6c9ee8fbb4eeb990c8~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_218,h_228,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/577c92_416c1d77ae194a6c9ee8fbb4eeb990c8~mv2_d_4032_3024_s_4_2.jpg",
+      "status": 200,
+      "bytes": 16112,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_416c1d77ae194a6c9ee8fbb4eeb990c8~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_436,h_456,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/577c92_416c1d77ae194a6c9ee8fbb4eeb990c8~mv2_d_4032_3024_s_4_2.jpg",
+      "status": 200,
+      "bytes": 62683,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_5ab03e26b42f4477a4efaabfa91c2a13~mv2_d_3161_1299_s_2.png/v1/fill/w_400,h_164,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/577c92_5ab03e26b42f4477a4efaabfa91c2a13~mv2_d_3161_1299_s_2.png",
+      "status": 200,
+      "bytes": 5572,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_5ab03e26b42f4477a4efaabfa91c2a13~mv2_d_3161_1299_s_2.png/v1/fill/w_800,h_328,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/577c92_5ab03e26b42f4477a4efaabfa91c2a13~mv2_d_3161_1299_s_2.png",
+      "status": 200,
+      "bytes": 39562,
+      "mime": "image/png",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_cb8c570a8e9c4d6c89fc935189913d06~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_485,y_0,w_3062,h_3024/fill/w_319,h_315,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20181101_163739.jpg",
+      "status": 200,
+      "bytes": 37581,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_cb8c570a8e9c4d6c89fc935189913d06~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_485,y_0,w_3062,h_3024/fill/w_638,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20181101_163739.jpg",
+      "status": 200,
+      "bytes": 182798,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_cba75aa504aa41c69a2f67d81c01810a~mv2.jpg/v1/crop/x_485,y_0,w_3062,h_3024/fill/w_319,h_315,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20200720_131237.jpg",
+      "status": 200,
+      "bytes": 39278,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_cba75aa504aa41c69a2f67d81c01810a~mv2.jpg/v1/crop/x_485,y_0,w_3062,h_3024/fill/w_638,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20200720_131237.jpg",
+      "status": 200,
+      "bytes": 228484,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/42cca7_f488dd73b7ff4a4d91af319a3b407de6~mv2.jpg/v1/crop/x_554,y_0,w_3500,h_3456/fill/w_319,h_315,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSCN0521_JPG.jpg",
+      "status": 200,
+      "bytes": 26644,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/42cca7_f488dd73b7ff4a4d91af319a3b407de6~mv2.jpg/v1/crop/x_554,y_0,w_3500,h_3456/fill/w_638,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSCN0521_JPG.jpg",
+      "status": 200,
+      "bytes": 162095,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_92ad588144e14a108f99ba3852aa951a~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/577c92_92ad588144e14a108f99ba3852aa951a~mv2.jpg",
+      "status": 200,
+      "bytes": 46888,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_814691bc6aa84fe699159c9f9f122289~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/577c92_814691bc6aa84fe699159c9f9f122289~mv2_d_4032_3024_s_4_2.jpg",
+      "status": 200,
+      "bytes": 43186,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_cc9c113169654f9fa41c054bb4963b2c~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/577c92_cc9c113169654f9fa41c054bb4963b2c~mv2_d_3024_4032_s_4_2.jpg",
+      "status": 200,
+      "bytes": 56614,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_0845c93395c940f59aacb41d243bf545~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/577c92_0845c93395c940f59aacb41d243bf545~mv2.jpg",
+      "status": 200,
+      "bytes": 45768,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_6e510b6e4f6b46a6993856eae8be1a88~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/577c92_6e510b6e4f6b46a6993856eae8be1a88~mv2.jpg",
+      "status": 200,
+      "bytes": 35165,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_085ed5afbb754eedbd8061f534d40795~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/577c92_085ed5afbb754eedbd8061f534d40795~mv2.jpg",
+      "status": 200,
+      "bytes": 32615,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_e91db96cc9c74385bd2f75da41b17c93~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/577c92_e91db96cc9c74385bd2f75da41b17c93~mv2.jpg",
+      "status": 200,
+      "bytes": 48925,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_e9eefebdecc54e2c9e631ae1c32a74bf~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/577c92_e9eefebdecc54e2c9e631ae1c32a74bf~mv2.jpg",
+      "status": 200,
+      "bytes": 37894,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_4eb397ce205c41b88c2bee5ce7dd1998~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/577c92_4eb397ce205c41b88c2bee5ce7dd1998~mv2_d_4032_3024_s_4_2.jpg",
+      "status": 200,
+      "bytes": 58950,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_80b26e41c0f34481a6e4d349ee073ed7~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/577c92_80b26e41c0f34481a6e4d349ee073ed7~mv2.jpg",
+      "status": 200,
+      "bytes": 49786,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_6648004a5f0e4e0da0c678593a98ab72~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/577c92_6648004a5f0e4e0da0c678593a98ab72~mv2.jpg",
+      "status": 200,
+      "bytes": 26433,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_61300498f54647bb93ee49823ca0efdc~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/577c92_61300498f54647bb93ee49823ca0efdc~mv2.jpg",
+      "status": 200,
+      "bytes": 52551,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_92ad588144e14a108f99ba3852aa951a~mv2.jpg/v1/crop/x_173,y_0,w_1154,h_844/fill/w_449,h_324,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20160209_154839_edited_edited.jpg",
+      "status": 200,
+      "bytes": 49541,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_92ad588144e14a108f99ba3852aa951a~mv2.jpg/v1/crop/x_173,y_0,w_1154,h_844/fill/w_898,h_648,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20160209_154839_edited_edited.jpg",
+      "status": 200,
+      "bytes": 276967,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_82178e38545d49189b7953f61600eaea~mv2.jpg/v1/crop/x_268,y_115,w_503,h_676/fill/w_139,h_185,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/0906181116b%20(2)_edited.jpg",
+      "status": 200,
+      "bytes": 7016,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_82178e38545d49189b7953f61600eaea~mv2.jpg/v1/crop/x_268,y_115,w_503,h_676/fill/w_278,h_370,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/0906181116b%20(2)_edited.jpg",
+      "status": 200,
+      "bytes": 34900,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/035244_b306b0142151451ebd2f5819cbeaa9bd~mv2.png/v1/fill/w_36,h_36,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/035244_b306b0142151451ebd2f5819cbeaa9bd~mv2.png",
+      "status": 200,
+      "bytes": 1072,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/035244_b306b0142151451ebd2f5819cbeaa9bd~mv2.png/v1/fill/w_72,h_72,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/035244_b306b0142151451ebd2f5819cbeaa9bd~mv2.png",
+      "status": 200,
+      "bytes": 2316,
+      "mime": "image/png",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/035244_a37f1d05947e422e82f337ad2ab09170~mv2.png/v1/fill/w_36,h_36,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/035244_a37f1d05947e422e82f337ad2ab09170~mv2.png",
+      "status": 200,
+      "bytes": 1044,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/035244_a37f1d05947e422e82f337ad2ab09170~mv2.png/v1/fill/w_72,h_72,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/035244_a37f1d05947e422e82f337ad2ab09170~mv2.png",
+      "status": 200,
+      "bytes": 2347,
+      "mime": "image/png",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e316f544f9094143b9eac01f1f19e697.png",
+      "status": 200,
+      "bytes": 846,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_78,h_78,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e316f544f9094143b9eac01f1f19e697.png",
+      "status": 200,
+      "bytes": 2073,
+      "mime": "image/png",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/9c4b521dd2404cd5a05ed6115f3a0dc8.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/9c4b521dd2404cd5a05ed6115f3a0dc8.png",
+      "status": 200,
+      "bytes": 730,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/9c4b521dd2404cd5a05ed6115f3a0dc8.png/v1/fill/w_78,h_78,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/9c4b521dd2404cd5a05ed6115f3a0dc8.png",
+      "status": 200,
+      "bytes": 2414,
+      "mime": "image/png",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/a1b09fe8b7f04378a9fe076748ad4a6a.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a1b09fe8b7f04378a9fe076748ad4a6a.png",
+      "status": 200,
+      "bytes": 816,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/a1b09fe8b7f04378a9fe076748ad4a6a.png/v1/fill/w_78,h_78,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a1b09fe8b7f04378a9fe076748ad4a6a.png",
+      "status": 200,
+      "bytes": 3781,
+      "mime": "image/png",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/28e77d0b179d4121891d847ed43de6cc.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/28e77d0b179d4121891d847ed43de6cc.png",
+      "status": 200,
+      "bytes": 1033,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/28e77d0b179d4121891d847ed43de6cc.png/v1/fill/w_78,h_78,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/28e77d0b179d4121891d847ed43de6cc.png",
+      "status": 200,
+      "bytes": 5364,
+      "mime": "image/png",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/fb5d18fdfff64a56a7e136d2016a1b7b.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fb5d18fdfff64a56a7e136d2016a1b7b.png",
+      "status": 200,
+      "bytes": 909,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/fb5d18fdfff64a56a7e136d2016a1b7b.png/v1/fill/w_78,h_78,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fb5d18fdfff64a56a7e136d2016a1b7b.png",
+      "status": 200,
+      "bytes": 1917,
+      "mime": "image/png",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_44e20c8d819f4aa9b391b5991d4fc6f1~mv2.jpg/v1/fill/w_450,h_335,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20200915_134141.jpg",
+      "status": 200,
+      "bytes": 16073,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_44e20c8d819f4aa9b391b5991d4fc6f1~mv2.jpg/v1/fill/w_900,h_670,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20200915_134141.jpg",
+      "status": 200,
+      "bytes": 80004,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_29ee99dfc97744c9a046ef39afa47dd0~mv2.jpg/v1/crop/x_0,y_29,w_4032,h_2965/fill/w_449,h_326,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20220609_170856.jpg",
+      "status": 200,
+      "bytes": 47566,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_29ee99dfc97744c9a046ef39afa47dd0~mv2.jpg/v1/crop/x_0,y_29,w_4032,h_2965/fill/w_898,h_652,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20220609_170856.jpg",
+      "status": 200,
+      "bytes": 252920,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/11062b_3d75f8f61cff47db8e8f16fa1c0b2b18f000.png/v1/fill/w_275,h_240,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_3d75f8f61cff47db8e8f16fa1c0b2b18f000.png",
+      "status": 200,
+      "bytes": 13567,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/11062b_3d75f8f61cff47db8e8f16fa1c0b2b18f000.png/v1/fill/w_550,h_480,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_3d75f8f61cff47db8e8f16fa1c0b2b18f000.png",
+      "status": 200,
+      "bytes": 342420,
+      "mime": "image/png",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_e5f05b6ef89b45908d05ac76c2517058~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_19,w_4032,h_2987/fill/w_389,h_284,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20190626_095739.jpg",
+      "status": 200,
+      "bytes": 30297,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_e5f05b6ef89b45908d05ac76c2517058~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_19,w_4032,h_2987/fill/w_778,h_568,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20190626_095739.jpg",
+      "status": 200,
+      "bytes": 174802,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_05c3c4a67ce94d65b8fa9a1199b2f32e~mv2.jpg/v1/crop/x_0,y_51,w_4032,h_2922/fill/w_398,h_284,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20200914_061110.jpg",
+      "status": 200,
+      "bytes": 15609,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_05c3c4a67ce94d65b8fa9a1199b2f32e~mv2.jpg/v1/crop/x_0,y_51,w_4032,h_2922/fill/w_796,h_568,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20200914_061110.jpg",
+      "status": 200,
+      "bytes": 104503,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_585cf024a4fd4754afa908b08fe20a42~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_8,w_4032,h_3009/fill/w_386,h_284,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20190906_130209.jpg",
+      "status": 200,
+      "bytes": 24563,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_585cf024a4fd4754afa908b08fe20a42~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_8,w_4032,h_3009/fill/w_772,h_568,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20190906_130209.jpg",
+      "status": 200,
+      "bytes": 144500,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_46c88fbcded04aae82bd6ed4d9f78941~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_11,w_4032,h_3001/fill/w_393,h_290,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20180628_124135.jpg",
+      "status": 200,
+      "bytes": 25944,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_46c88fbcded04aae82bd6ed4d9f78941~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_11,w_4032,h_3001/fill/w_786,h_580,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20180628_124135.jpg",
+      "status": 200,
+      "bytes": 147066,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_642f1fde1d104cecb8a7ab14546649ca~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_5,w_4032,h_3014/fill/w_378,h_280,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20191012_185817.jpg",
+      "status": 200,
+      "bytes": 31121,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_642f1fde1d104cecb8a7ab14546649ca~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_5,w_4032,h_3014/fill/w_756,h_560,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20191012_185817.jpg",
+      "status": 200,
+      "bytes": 166043,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/42cca7_08f90f3f701046708be4ad8593e69655~mv2.jpg/v1/crop/x_0,y_8,w_4032,h_3009/fill/w_386,h_284,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20220129_125128.jpg",
+      "status": 200,
+      "bytes": 24393,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/42cca7_08f90f3f701046708be4ad8593e69655~mv2.jpg/v1/crop/x_0,y_8,w_4032,h_3009/fill/w_772,h_568,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20220129_125128.jpg",
+      "status": 200,
+      "bytes": 156890,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_4eb397ce205c41b88c2bee5ce7dd1998~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_4,w_4032,h_3016/fill/w_385,h_284,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20191105_183322.jpg",
+      "status": 200,
+      "bytes": 39043,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_4eb397ce205c41b88c2bee5ce7dd1998~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_4,w_4032,h_3016/fill/w_770,h_568,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20191105_183322.jpg",
+      "status": 200,
+      "bytes": 201042,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_1a8c94f695c7458798568aea4d37be39~mv2.jpg/v1/crop/x_0,y_61,w_4032,h_2902/fill/w_373,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20200108_144502.jpg",
+      "status": 200,
+      "bytes": 27232,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_1a8c94f695c7458798568aea4d37be39~mv2.jpg/v1/crop/x_0,y_61,w_4032,h_2902/fill/w_746,h_528,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20200108_144502.jpg",
+      "status": 200,
+      "bytes": 161858,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_fb20267f49814268ace4ffa026bf98e2~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_4,w_4032,h_3016/fill/w_385,h_284,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20180926_193631.jpg",
+      "status": 200,
+      "bytes": 20636,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_fb20267f49814268ace4ffa026bf98e2~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_4,w_4032,h_3016/fill/w_770,h_568,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20180926_193631.jpg",
+      "status": 200,
+      "bytes": 134333,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_4264ca4e653e49f2b6a80cf80827d1db~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_9,w_4032,h_3006/fill/w_379,h_280,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20190514_200141.jpg",
+      "status": 200,
+      "bytes": 30561,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/577c92_4264ca4e653e49f2b6a80cf80827d1db~mv2_d_4032_3024_s_4_2.jpg/v1/crop/x_0,y_9,w_4032,h_3006/fill/w_758,h_560,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20190514_200141.jpg",
+      "status": 200,
+      "bytes": 173716,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/i.ytimg.com/vi/Or1hoL-VUqE/maxresdefault.jpg",
+      "status": 200,
+      "bytes": 82173,
+      "mime": "image/jpeg",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8d6893330740455c96d218258a458aa4.png",
+      "status": 200,
+      "bytes": 741,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_48,h_48,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8d6893330740455c96d218258a458aa4.png",
+      "status": 200,
+      "bytes": 1977,
+      "mime": "image/png",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/e0678ef25486466ba65ef6ad47b559e1.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e0678ef25486466ba65ef6ad47b559e1.png",
+      "status": 200,
+      "bytes": 790,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/e0678ef25486466ba65ef6ad47b559e1.png/v1/fill/w_48,h_48,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e0678ef25486466ba65ef6ad47b559e1.png",
+      "status": 200,
+      "bytes": 2063,
+      "mime": "image/png",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/767689ba34f143a1a36e49b5f2fbe31a.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/767689ba34f143a1a36e49b5f2fbe31a.png",
+      "status": 200,
+      "bytes": 824,
+      "mime": "image/avif",
+      "matches_original": true
+    },
+    {
+      "url": "http://localhost:3000/_archive/static.wixstatic.com/media/767689ba34f143a1a36e49b5f2fbe31a.png/v1/fill/w_48,h_48,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/767689ba34f143a1a36e49b5f2fbe31a.png",
+      "status": 200,
+      "bytes": 2307,
+      "mime": "image/png",
+      "matches_original": true
+    }
+  ],
+  "proxy_image_url": "https://glass-pantry.preview.example/_archive/static.wixstatic.com/media/577c92_416c1d77ae194a6c9ee8fbb4eeb990c8~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_218,h_228,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/577c92_416c1d77ae194a6c9ee8fbb4eeb990c8~mv2_d_4032_3024_s_4_2.jpg"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "scenario": "localhost with wildcard bind",
+    "origin": "http://localhost:3000",
+    "images": 45,
+    "imageURLs": 73,
+    "status": "passed"
+  },
+  {
+    "scenario": "LAN host with wildcard bind",
+    "origin": "http://192.168.1.20:3000",
+    "images": 45,
+    "imageURLs": 73,
+    "status": "passed"
+  },
+  {
+    "scenario": "HTTPS preview proxy",
+    "origin": "https://glass-pantry.preview.example",
+    "images": 45,
+    "imageURLs": 73,
+    "status": "passed"
+  }
+]

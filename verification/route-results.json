@@ -1,0 +1,25 @@
+{
+  "routes": 1412,
+  "html_exact_after_url_normalization": 1408,
+  "redirects": 4,
+  "original_404s": 15,
+  "asset_samples": 145,
+  "failures": [],
+  "missing_internal_links": [
+    "https://www.theglasspantry.com//single-post/exploring-with-edna-lighting-upgrades",
+    "https://www.theglasspantry.com/blog-feed.xml",
+    "https://www.theglasspantry.com/blog/2017/05/08/how-to-smoke-salmon",
+    "https://www.theglasspantry.com/blog/2017/12/03/jasmine-rice-in-a-pot",
+    "https://www.theglasspantry.com/blog/2018/09/20/sheet-pan-bacon",
+    "https://www.theglasspantry.com/blog/2019/04/22/mels-secret-spice-blend",
+    "https://www.theglasspantry.com/chunky-green-tomato-picante-sauce",
+    "https://www.theglasspantry.com/pork-chops-with-chanterelles",
+    "https://www.theglasspantry.com/pork-cutlets",
+    "https://www.theglasspantry.com/shiso-pork-pot-stickers",
+    "https://www.theglasspantry.com/single-post/2017/05/15/a-perfectly-formed-burger-patty",
+    "https://www.theglasspantry.com/single-post/2019/01/24/Spicy-Sweet-Stew-with-Koss-Sauce",
+    "https://www.theglasspantry.com/spicy-feel-better-broth",
+    "https://www.theglasspantry.com/turkey-noodles"
+  ],
+  "uncaptured_route_status": 404
+}

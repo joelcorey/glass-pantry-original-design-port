@@ -1,0 +1,48 @@
+[
+  {
+    "mime": "font/woff2",
+    "test": "Original asset served",
+    "status": "passed"
+  },
+  {
+    "mime": "text/css",
+    "test": "Original asset served",
+    "status": "passed"
+  },
+  {
+    "mime": "application/javascript",
+    "test": "Original asset served",
+    "status": "passed"
+  },
+  {
+    "mime": "image/avif",
+    "test": "Original asset served",
+    "status": "passed"
+  },
+  {
+    "mime": "image/jpeg",
+    "test": "Original asset served",
+    "status": "passed"
+  },
+  {
+    "mime": "video/mp4",
+    "test": "Original asset served",
+    "status": "passed"
+  },
+  {
+    "test": "bytes=0-99",
+    "status": "passed"
+  },
+  {
+    "test": "bytes=-100",
+    "status": "passed"
+  },
+  {
+    "test": "bytes=2011219-",
+    "status": "passed"
+  },
+  {
+    "test": "Site query string preserves captured page",
+    "status": "passed"
+  }
+]

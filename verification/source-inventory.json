@@ -1,0 +1,109 @@
+{
+  "wacz_entries": [
+    "archive/rec-eaf39159e6cd-glass-pantry-20261026205512289-0.warc.gz",
+    "archive/rec-eaf39159e6cd-glass-pantry-20261026211503690-0.warc.gz",
+    "archive/rec-eaf39159e6cd-glass-pantry-20261026213947348-0.warc.gz",
+    "archive/rec-eaf39159e6cd-glass-pantry-20261026221001525-0.warc.gz",
+    "archive/rec-eaf39159e6cd-glass-pantry-20261026221930780-0.warc.gz",
+    "archive/rec-eaf39159e6cd-glass-pantry-20261026232137121-0.warc.gz",
+    "archive/rec-eaf39159e6cd-glass-pantry-20261027024706406-0.warc.gz",
+    "indexes/index.cdx.gz",
+    "indexes/index.idx",
+    "pages/extraPages.jsonl",
+    "pages/pages.jsonl",
+    "logs/20261026205511009.log",
+    "reports/skippedPages.jsonl",
+    "datapackage.json",
+    "datapackage-digest.json"
+  ],
+  "datapackage": {
+    "resources": [
+      {
+        "name": "rec-eaf39159e6cd-glass-pantry-20261026205512289-0.warc.gz",
+        "path": "archive/rec-eaf39159e6cd-glass-pantry-20261026205512289-0.warc.gz",
+        "bytes": 1000162492,
+        "hash": "sha256:694cb20e1b9da5aa8073a956871281ea981512db3bc3c459b267f870d594b448"
+      },
+      {
+        "name": "rec-eaf39159e6cd-glass-pantry-20261026211503690-0.warc.gz",
+        "path": "archive/rec-eaf39159e6cd-glass-pantry-20261026211503690-0.warc.gz",
+        "bytes": 1000303548,
+        "hash": "sha256:2e0291434cd0e6e014bce52d2f802c4056f1a26a564084be0ef16e0ce4608fbd"
+      },
+      {
+        "name": "rec-eaf39159e6cd-glass-pantry-20261026213947348-0.warc.gz",
+        "path": "archive/rec-eaf39159e6cd-glass-pantry-20261026213947348-0.warc.gz",
+        "bytes": 1000293156,
+        "hash": "sha256:6fa801496db9cc28bd7f6bf83198ba14cd6822914c6c4df18ebbc66dd83f5ce4"
+      },
+      {
+        "name": "rec-eaf39159e6cd-glass-pantry-20261026221001525-0.warc.gz",
+        "path": "archive/rec-eaf39159e6cd-glass-pantry-20261026221001525-0.warc.gz",
+        "bytes": 1001136576,
+        "hash": "sha256:b054f2f4c0834b77c8849efade13c2e51d58ab60f0d16f16fed29639a721b282"
+      },
+      {
+        "name": "rec-eaf39159e6cd-glass-pantry-20261026221930780-0.warc.gz",
+        "path": "archive/rec-eaf39159e6cd-glass-pantry-20261026221930780-0.warc.gz",
+        "bytes": 1000776378,
+        "hash": "sha256:58bee1526b7fe7b869e8526935631c4429d11f8ecbd7505e61e1145ced79277e"
+      },
+      {
+        "name": "rec-eaf39159e6cd-glass-pantry-20261026232137121-0.warc.gz",
+        "path": "archive/rec-eaf39159e6cd-glass-pantry-20261026232137121-0.warc.gz",
+        "bytes": 1000100073,
+        "hash": "sha256:a0e5ca89e6fd759047d284869d004baedb1e10444a1fbb42ff4caf1e00381dd4"
+      },
+      {
+        "name": "rec-eaf39159e6cd-glass-pantry-20261027024706406-0.warc.gz",
+        "path": "archive/rec-eaf39159e6cd-glass-pantry-20261027024706406-0.warc.gz",
+        "bytes": 524838924,
+        "hash": "sha256:47181b765bdb5c8e72ebf35e6fbf66be1020e40bb0fd80fb3577251bb6a7490a"
+      },
+      {
+        "name": "index.cdx.gz",
+        "path": "indexes/index.cdx.gz",
+        "bytes": 5274068,
+        "hash": "sha256:2d4a427c79033f106027e39a06426efbe338939e52dd9809de4c160e388c2727"
+      },
+      {
+        "name": "index.idx",
+        "path": "indexes/index.idx",
+        "bytes": 75601,
+        "hash": "sha256:49406c24288f1a6aed5cfa75ec3e11c81170e7518275a293528cc3721a645a59"
+      },
+      {
+        "name": "extrapages.jsonl",
+        "path": "pages/extraPages.jsonl",
+        "bytes": 4184563,
+        "hash": "sha256:efc99ff5762be42677b8f64d33bec6ad661b249fad5fc889265ec563f8bfa747"
+      },
+      {
+        "name": "pages.jsonl",
+        "path": "pages/pages.jsonl",
+        "bytes": 2573,
+        "hash": "sha256:7a5bb08b990379308f13854dfd450059ac236d8e599e7e3d7df64af4adebcf94"
+      },
+      {
+        "name": "20261026205511009.log",
+        "path": "logs/20261026205511009.log",
+        "bytes": 79442487,
+        "hash": "sha256:7892f560e60013b030d65f4e90bb12f8a9e90c6c6396da3b985f764e2bf05336"
+      },
+      {
+        "name": "skippedpages.jsonl",
+        "path": "reports/skippedPages.jsonl",
+        "bytes": 3019402,
+        "hash": "sha256:bf4fc1c83f8d9e3c1b5ce8fbd712f8c61f8c4e3d9ec760ce8e440b7340a1974d",
+        "format": "text"
+      }
+    ],
+    "created": "2026-10-27T06:01:49Z",
+    "wacz_version": "1.1.1",
+    "software": "Browsertrix-Crawler 1.15.1 (with warcio.js 2.4.12)"
+  },
+  "skipped_page_reasons": {
+    "unspecified": 1,
+    "outOfScope": 12612
+  }
+}
