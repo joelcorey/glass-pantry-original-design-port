@@ -1,0 +1,39 @@
+<!DOCTYPE html><html><head><base href="/">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Wix Comments</title>
+		<meta name="description" content="Wix Comments Application">
+		<meta name="viewport" content="width=device-width">
+
+		<script type="text/javascript">
+			(function() {
+				var compId = /[&?]compId=([^&]+)/.exec(window.location.search);
+				try {
+					parent.postMessage(JSON.stringify({
+						intent: 'TPA2',
+						callId: 1,
+						type: 'appIsAlive',
+						compId: compId ? compId[1] : '',
+						deviceType: 'desktop',
+						data: {version: '1.425.0'}
+					}), '*');
+				} catch (e) {
+					console.error(e);
+				}
+			})();
+			Function.prototype.bind||(Function.prototype.bind=function(a){if("function"!=typeof this)throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");var b=Array.prototype.slice.call(arguments,1),c=this,d=function(){},e=function(){return c.apply(this instanceof d?this:a,b.concat(Array.prototype.slice.call(arguments)))};return this.prototype&&(d.prototype=this.prototype),e.prototype=new d,e});
+		</script>
+
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<style>html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}body{background-color:transparent;margin:0;line-height:1.42857143}*{box-sizing:border-box}</style><link rel="stylesheet" href="styles.d5a5e84802ffd186.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.d5a5e84802ffd186.css"></noscript></head>
+	<body>
+		<script type="text/javascript" src="//static.parastorage.com/services/js-sdk/1.425.0/js/wix.min.js"></script>
+		<comments-widget-app></comments-widget-app>
+
+		<script>
+			var _commentsData = {"settings":{"i":{"approveComments":true,"bootstrapTime":"2017-04-29T14:51:35.710Z","emailNotification":"_notify","enableEmoji":true,"enableImageAttachments":true,"enableNewCompose":true,"enableRating":true,"enableReplyNotification":true,"enableVotes":true,"enableWebsite":true,"exp":{"freeNotifications":true},"hideSocial":false,"optionalEmailBox":true,"replies":"users","showSocialSharing":true,"version":1},"w":{"bootstrapTime":1639006804280,"comment":{"background":"$color-8","textColor":"$color-1","textColorInherit":true,"transparentBackground":true},"commentsPerPage":10,"count":{"messages":3},"enableVK":false,"lang":"en","settingsOpened":false,"version":9,"widget":{"background":"$color-1","border":{"color":"$color-6","round":true,"show":false,"width":1},"buttonColor":"$color-8","fontSize":14,"textColor":"$color-5","titleSize":24,"transparentBackground":false}}},"comments":{"-NU51mEF_RhLwgDBYX9L":{"author":"Leo","page":"http:\/\/www.theglasspantry.com\/candied-witches-butter","pageTitle":"Candied Witches Butter","path":"\/candied-witches-butter","rating":5,"text":"cool idea, I’ll have to try this out if I ever find enough to make ha, I wonder if adding a gelling agent such as pectin would help with retention ","thread":{"-NU7A07ti3qbyrHXkWu0":{"author":"Melisa","page":"http:\/\/www.theglasspantry.com\/candied-witches-butter","pageTitle":"Candied Witches Butter","path":"\/candied-witches-butter","text":"That's possible but I haven't tried it. I hope you find enough to try this, Lol! Let me know if you try adding the pectin. I know I wont' find enough to make any more until late next Fall.","time":1682690544255,"userId":"9acc1803bb49d8e1f565ad16cecad0ab","userPic":"$profile:7ab789456869965485e7389825cfb8d0.jpg","userType":"email"}},"time":1682654831942,"userId":"visitor","userType":"anonymous","voteData":{"5a40b35c2515c23c21f16e468421243355ceb8618cfa837be79fea7f916f838c":1},"votes":1},"-NY4Yn2VUxTy2h3H86ky":{"author":"Marty","notifications":true,"page":"http:\/\/www.theglasspantry.com\/candied-witches-butter","pageTitle":"Candied Witches Butter","path":"\/candied-witches-butter","text":"Have you used black witches butter? We have it everywhere and I am looking for a way to use it. Thanks","thread":{"-NY51wnfo8gyVG0cmPrf":{"author":"Melisa","page":"http:\/\/www.theglasspantry.com\/candied-witches-butter","path":"\/candied-witches-butter","text":"Wow! I've never found black withes butter. After doing a little research, I understand Exidia glandulosa may be somewhat questionable as an edible, have you tried it? Sometimes different people have different tolerances for various fungi or they aren't cooking long enough etc. etc. so some fungi get a bad review for those reasons. I would think that as any jelly fungus seems to work in this recipe it, would be fun to try if you know this is an edible fungi you personally can eat. I wonder if it was flavored with anise, would it seem like licorice gummy's prepared this way? Hmmm...","time":1686949842253,"userId":"9acc1803bb49d8e1f565ad16cecad0ab","userPic":"$profile:7ab789456869965485e7389825cfb8d0.jpg","userType":"email"}},"time":1686941676479,"userId":"4e3195b1b1cf2cc0481b2cdc20505716","userType":"email"},"-NbkuWA73G-NyaaPIzrx":{"author":"Elke","page":"http:\/\/www.theglasspantry.com\/candied-witches-butter","pageTitle":"Candied Witches Butter","path":"\/candied-witches-butter","text":"This season the jelly babies are out in force (Leotia spp) so I'm giving this recipe a spin using them!\n","time":1691964014582,"userId":"visitor","userType":"anonymous","voteData":{"748460bfa4ee7ce5bb504da2635847104de4e57b9c8a32ef181c4c34503c1580":1},"votes":1},"-NlLElCXK3sBDLk8TlRp":{"author":"Paul","page":"http:\/\/www.theglasspantry.com\/candied-witches-butter","pageTitle":"Candied Witches Butter","path":"\/candied-witches-butter","text":"They look yummy I accidently grew some adding coffee grains to my tomatoes dirt now I know what to do with it next time it happens thank you and cheers ❤","time":1702254025311,"userId":"visitor","userType":"anonymous"}},"texts":null};
+		</script>
+	<script src="runtime.7201a52bbac2880c.js" type="module"></script><script src="polyfills.3051bed40b33346e.js" type="module"></script><script src="main.c758a124e7bab2c7.js" type="module"></script>
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"40eb768d9cb948f4bc365121fddac224","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body></html>
