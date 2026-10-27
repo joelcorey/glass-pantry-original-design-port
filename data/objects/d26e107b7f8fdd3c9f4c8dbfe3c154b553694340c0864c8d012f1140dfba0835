@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wix Pro Gallery Worker</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="referrer" content="origin">
+    
+    <script>
+      window.staticsVersion="2.6366.0";
+      window.staticBaseUrl="https://static.parastorage.com/";
+      window.staticsUrl="https://static.parastorage.com/services/pro-gallery-statics/2.6366.0/";
+      window.instance = "WOtgFYAqXXFicAqNY44I-OyJooiQA9UljEkM40iboqM.eyJpbnN0YW5jZUlkIjoiZjVhMTZiMzItYjI1NS00YjM5LWI1NTktNTBkNjM0Mzc4OTUzIiwiYXBwRGVmSWQiOiIxNDI3MWQ2Zi1iYTYyLWQwNDUtNTQ5Yi1hYjk3MmFlMWY3MGUiLCJtZXRhU2l0ZUlkIjoiZGQ4NDMzMzktZjhiMS00ZTFmLThhM2UtNWMyMWM0ZmIyMmU4Iiwic2lnbkRhdGUiOiIyMDI2LTEwLTI2VDIyOjA2OjUyLjYwMFoiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjJiNDE1NGFmLTYyNmYtNGYxZi1hZDc3LTZiOTIwNjMyOGM3YyIsImJpVG9rZW4iOiIyODI1NTgwYi00YWU0LTA1MjYtM2Y2Ny0wY2Y3ZjBjY2FiYmIiLCJzaXRlT3duZXJJZCI6IjU3N2M5MmQ4LTU1ZjctNGY5OC04OGEyLWQ4NjQ3YjFjMmM5YyIsImJzIjoiRjA2WHdtNU1SRE9MdHZtX3VibTlJQktob0I0RncxbExhaVR0UWhteW04TSIsInNjZCI6IjIwMTctMDMtMDNUMTk6NDU6MzEuMjc1WiJ9";
+      window.instanceId = "f5a16b32-b255-4b39-b559-50d634378953";
+      window.isStore = "false";
+      window.proGalleryWidget = 'Worker';
+      window.isWorker = true;
+      window.isProGallery = true;
+
+      console.log("Worker Statics Version", window.staticsVersion);
+
+      try {
+        window.petri = {"specs.pro-gallery.removeUseOfCounterApi":"true","specs.LocalizationTranslationFlowSpec":"true","specs.pro-gallery.useImageAvifFormat":"true","specs.pro-gallery.EnableAlbumsStorePremiumValidation":"true","specs.pro-gallery.removePgStoreTab":"true","specs.pro-gallery.useMotherSiteAppInstance":"true","specs.pro-gallery.addSEOVideoMetaTags":"false","specs.pro-gallery.slideTransition":"true","specs.pro-gallery.displayProGalleryPresets":"true","specs.pro-gallery.enablePGRenderIndicator":"false","specs.pro-gallery.excludeFromWarmupData":"false","specs.pro-gallery.displayProGalleryNewPreset":"true","specs.pro-gallery.useReactionService":"true","specs.pro-gallery.textBoxWidthControllers":"true","specs.pro-gallery.excludeFromLayoutFixer":"false","specs.pro-gallery.useIsInFirstFold":"false","specs.pro-gallery.dontRenderGalleryBelowFoldOnLoad":"false","specs.pro-gallery.displayProGallerySEOSettings":"false","specs.pro-gallery.useWowImageRenderer":"false","specs.pro-gallery.useWarmupData":"true","specs.pro-gallery.slideAnimationDeck":"true","specs.pro-gallery.useReactPortalInArtStore":"true","specs.pro-gallery.blockOAP":"false","specs.pro-gallery.useServerBlueprints-viewer":"false","specs.pro-gallery.excludeFromThinLinesFix":"false","specs.pro-gallery.excludeFromHlsVideosOnIphone":"true","specs.pro-gallery.removeRoleApplication":"true","specs.pro-gallery.useServerBlueprints-preview":"false","specs.pro-gallery.shouldUseVirtualization":"true","specs.pro-gallery.disableImagePreload":"true","specs.pro-gallery.excludeFromPrerenderPerformance":"false","specs.pro-gallery.appSettings":"true"};
+      } catch (e) {
+        window.petri = {};
+      }
+    </script>
+  </head>
+
+  <body>
+    <script src="https://static.parastorage.com/services/js-sdk/1.542.0/js/wix-private.min.js" crossorigin="anonymous"></script>
+    
+    <script>
+      function loadJS(filePath) {
+        var fileref = document.createElement('link');
+        fileref.setAttribute('rel', 'prefetch');
+        fileref.setAttribute('href', filePath);
+        document.getElementsByTagName('head')[0].appendChild(fileref);
+      }
+
+      try {
+        var Wix = window.Wix;
+        if (Wix && Wix.Worker && Wix.Worker.Utils) {
+          if (Wix.Worker.Utils.getViewMode() == 'editor') {
+            loadJS('//static.parastorage.com/services/editor-ui-lib/1.28.0/lib/editor-ui-lib-jquery.min.js');
+            loadJS('//static.parastorage.com/services/editor-ui-lib/1.28.0/lib/editor-ui-lib-angular.min.js');
+
+            if (window.location.search.toLowerCase().indexOf('isstore') > -1) {
+              var wixAddEventListener = Wix.Worker.addEventListener || Wix.addEventListener;
+              if (wixAddEventListener && typeof wixAddEventListener === 'function') {
+                wixAddEventListener(Wix.Events.SITE_PUBLISHED, function(e) {
+                  const xhr = new XMLHttpRequest();
+                  xhr.open('POST', '/api/v1/store/publish?instance=' + window.instance + '&isStore=true');
+                  xhr.withCredentials = true;
+                  xhr.setRequestHeader('Content-Type', 'application/json');
+                  xhr.send();
+                });
+              }
+            }
+
+          }
+        } else {
+          console.error('Wix.Worker.Utils isn\'t defined on worker.vm', Wix);
+        }
+      } catch (error) {
+        console.error('preload and publish event error', error);
+      }
+    </script>
+    <script>
+      try {
+        document.domain = 'wixapps.net';
+      } catch (e) {
+        console.log("couldn't set subdomain to wix.com");
+      }
+    </script>
+    <script src="https://browser.sentry-cdn.com/4.4.2/bundle.min.js" crossorigin="anonymous"></script>
+    <script>Sentry.init({ dsn: 'https://e8da9340b9594a029c2f6c127517893d@sentry.wixpress.com/111', environment: 'worker' });</script>
+  </body>
+</html>

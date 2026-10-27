@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body, #mapDiv {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mapDiv"></div>
+      
+    <script nonce="NbLXcXYYnaTwiPbPFD_v9A">
+      function onEmbedLoad() {
+        initEmbed([null,null,null,null,null,[null,null,null,null,[["directions",[null,null,null,[null,null,[[["101 Mill St, Grass Valley, OR 97029",null,null,null,null,null,null,null,null,null,null,"f6kJG5YwArgUsm3LFTNa7B8Qo4mn6r1U"],["Maupin, Oregon 97037",null,null,null,null,null,null,null,null,null,null,"JS3tGuVv1LdMXeu8Fh-HDSXn9G-g2L1U"],["Rivertap Restaurant and Pub",null,null,null,null,null,null,null,null,null,null,"1dstG97hxbc8yZTVbJ4bSX_ExQ1zHpZU"],["Mosier, Oregon 97040",null,null,null,null,null,null,null,null,null,null,"4L06Gyo-pLciUJ7HeuqlSV84-ZNyEJZU"],["Marsh Cutoff Rd",null,null,null,null,null,null,null,null,null,null,"94Y6GxxQrbeSTK5Wb6PFFBkIreBvGpZU"],["7 Mile Hill Rd",null,null,null,null,null,null,null,null,null,null,"I6YzG4pMtrdTQKdW9oXuUD8Nf3COG5ZU"],["The Dalles Bridge",null,null,null,null,null,null,null,null,null,null,"urYvG09ly7c1MvYs17aOx8s7CNlLHpZU"],["Cascade Cliffs Vineyard \u0026 Winery",null,null,null,null,null,null,null,null,null,null,"6ic3G8gb2LfyEc0Mjf8nueloj6UzJ5ZU"]],null,null,0,null,[[null,null,null,null,null,null,null,3],[0,0],null,null,null,[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,[],null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,["CA","FR","JP","NO"],null,null,null,null,null,null,null,null,1,null,null,1,null,null,1,null,null,1,1,null,null,null,null,["US","SE","JP"],1,1,null,null,null,null,null,null,null,null,null,null,1,1,null,null,null,1,null,null,null,null,null,null,1,null,null,null,null,null,null,1,null,null,null,null,null,null,1,null,1,null,null,null,1,null,null,null,1,1,null,1,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,1,null,null,null,null,null,null,null,300,100],0,null,null,null,null,null,null,null,null,null,null,null,null,[0,3],null,null,null,null,null,null,null,null,null,null,0],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1793053046,null,0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[18],null,null,null,[null,null,null,null,null,[1,1],null,1,null,10]],null,null,null,null,null,null,null,null,null,null,"ChDMfdetNdCr7ZunJdHombTYEgd1c193ZXN0GAog9qL/1gYoADAAOLaTgNcG"]]]]],null,["en_US"],[null,null,null,"/maps/api/js/ApplicationService.GetEntityDetails","/maps/embed/upgrade204",null,"/maps/embed/record204"],null,null,null,null,null,null,null,null,"dtHfasDAIbvl0PEPjIzroAU",null,null,null,[[[358384.3759860448,-121.0917444,45.4319602],[0,0,0],null,13.10000038146973,null,[0,0]],null,0,null,[[[45.3618047,-120.7816042],[45.1751205,-121.0814491],[45.5990229,-121.1768354],[45.6834528,-121.397295],[45.6820471,-121.3378532],[45.6369699,-121.2789622],[45.6111802,-121.1407025],[45.65995299999999,-121.057388]],["101 Mill St, Grass Valley, OR 97029","Maupin, Oregon 97037","Rivertap Restaurant and Pub, 703 E 2nd St, The Dalles, OR 97058","Mosier, Oregon 97040","Marsh Cutoff Rd","7 Mile Hill Rd","The Dalles Bridge, US-197, Dallesport, WA 98617","Cascade Cliffs Vineyard \u0026 Winery, Mile Marker, 8866 WA-14, Wishram, WA 98673"],0]],null,null,null,0,null,null,null,null,null,null,[1]]);
+      }
+      function onApiLoad() {
+        var embed = document.createElement('script');
+        embed.src = "https://maps.gstatic.com/maps-api-v3/embed/js/66/11a/init_embed.js";
+        document.body.appendChild(embed);
+      }
+    </script>
+    <link rel="preload" href="https://maps.gstatic.com/maps-api-v3/embed/js/66/11a/init_embed.js" nonce="NbLXcXYYnaTwiPbPFD_v9A" as="script" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;paint_origin=&amp;libraries=geometry,search&amp;v=weekly&amp;loading=async&amp;language=en_US&amp;experimentation=allowed&amp;callback=onApiLoad" nonce="NbLXcXYYnaTwiPbPFD_v9A" async defer></script>
+  </body>
+</html>
