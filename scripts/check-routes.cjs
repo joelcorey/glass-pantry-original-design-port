@@ -16,7 +16,8 @@ function originalBody(url){const r=index[url];const fd=fs.openSync(source+'/arch
   if(entry.location){results.redirects++;if(res.headers.get('location')!==entry.location.replace('https://www.theglasspantry.com',origin))results.failures.push({url,error:'redirect mismatch'});continue;}
   if(entry.status===404)results.original_404s++;
   let rendered=await res.text();
-  // Reverse only the deliberate document navigation hook and URL relocation.
+  // Reverse the responsive asset tags, document navigation hook and URL relocation.
+  rendered=rendered.replace('<link rel="stylesheet" href="/responsive.css">','').replace('<script src="/responsive.js"></script>','');
   rendered=rendered.replace(/<script>document\.addEventListener\('click',function\(e\)\{var a=e\.target\.closest[\s\S]*?<\/script><\/body>/,'</body>');
   rendered=rendered.split(origin+'/_archive/').join('https://').split(origin.replaceAll('/','\\/')+'\\/_archive\\/').join('https:\\/\\/');
   rendered=rendered.split(origin).join('https://www.theglasspantry.com').split(origin.replaceAll('/','\\/')).join('https:\\/\\/www.theglasspantry.com');

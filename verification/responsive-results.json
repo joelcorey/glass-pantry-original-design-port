@@ -1,0 +1,371 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "desktopPixelsUnchanged": true
+  },
+  {
+    "route": "/",
+    "width": 320,
+    "documentWidth": 320,
+    "navigationLinks": 6,
+    "imagesChecked": 17
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "documentWidth": 390,
+    "navigationLinks": 6,
+    "imagesChecked": 17
+  },
+  {
+    "route": "/",
+    "width": 430,
+    "documentWidth": 430,
+    "navigationLinks": 6,
+    "imagesChecked": 17
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "documentWidth": 768,
+    "navigationLinks": 6,
+    "imagesChecked": 17
+  },
+  {
+    "route": "/",
+    "width": 979,
+    "documentWidth": 979,
+    "navigationLinks": 6,
+    "imagesChecked": 17
+  },
+  {
+    "route": "/featured-recipes",
+    "width": 1440,
+    "desktopPixelsUnchanged": true
+  },
+  {
+    "route": "/featured-recipes",
+    "width": 320,
+    "documentWidth": 320,
+    "navigationLinks": 6,
+    "imagesChecked": 19
+  },
+  {
+    "route": "/featured-recipes",
+    "width": 390,
+    "documentWidth": 390,
+    "navigationLinks": 6,
+    "imagesChecked": 19
+  },
+  {
+    "route": "/featured-recipes",
+    "width": 430,
+    "documentWidth": 430,
+    "navigationLinks": 6,
+    "imagesChecked": 19
+  },
+  {
+    "route": "/featured-recipes",
+    "width": 768,
+    "documentWidth": 768,
+    "navigationLinks": 6,
+    "imagesChecked": 19
+  },
+  {
+    "route": "/featured-recipes",
+    "width": 979,
+    "documentWidth": 979,
+    "navigationLinks": 6,
+    "imagesChecked": 19
+  },
+  {
+    "route": "/about-me",
+    "width": 1440,
+    "desktopPixelsUnchanged": true
+  },
+  {
+    "route": "/about-me",
+    "width": 320,
+    "documentWidth": 320,
+    "navigationLinks": 6,
+    "imagesChecked": 4
+  },
+  {
+    "route": "/about-me",
+    "width": 390,
+    "documentWidth": 390,
+    "navigationLinks": 6,
+    "imagesChecked": 4
+  },
+  {
+    "route": "/about-me",
+    "width": 430,
+    "documentWidth": 430,
+    "navigationLinks": 6,
+    "imagesChecked": 4
+  },
+  {
+    "route": "/about-me",
+    "width": 768,
+    "documentWidth": 768,
+    "navigationLinks": 6,
+    "imagesChecked": 4
+  },
+  {
+    "route": "/about-me",
+    "width": 979,
+    "documentWidth": 979,
+    "navigationLinks": 6,
+    "imagesChecked": 4
+  },
+  {
+    "route": "/food",
+    "width": 1440,
+    "desktopPixelsUnchanged": true
+  },
+  {
+    "route": "/food",
+    "width": 320,
+    "documentWidth": 320,
+    "navigationLinks": 6,
+    "imagesChecked": 28
+  },
+  {
+    "route": "/food",
+    "width": 390,
+    "documentWidth": 390,
+    "navigationLinks": 6,
+    "imagesChecked": 28
+  },
+  {
+    "route": "/food",
+    "width": 430,
+    "documentWidth": 430,
+    "navigationLinks": 6,
+    "imagesChecked": 28
+  },
+  {
+    "route": "/food",
+    "width": 768,
+    "documentWidth": 768,
+    "navigationLinks": 6,
+    "imagesChecked": 28
+  },
+  {
+    "route": "/food",
+    "width": 979,
+    "documentWidth": 979,
+    "navigationLinks": 6,
+    "imagesChecked": 28
+  },
+  {
+    "route": "/glass",
+    "width": 1440,
+    "desktopPixelsUnchanged": true
+  },
+  {
+    "route": "/glass",
+    "width": 320,
+    "documentWidth": 320,
+    "navigationLinks": 6,
+    "imagesChecked": 0
+  },
+  {
+    "route": "/glass",
+    "width": 390,
+    "documentWidth": 390,
+    "navigationLinks": 6,
+    "imagesChecked": 0
+  },
+  {
+    "route": "/glass",
+    "width": 430,
+    "documentWidth": 430,
+    "navigationLinks": 6,
+    "imagesChecked": 0
+  },
+  {
+    "route": "/glass",
+    "width": 768,
+    "documentWidth": 768,
+    "navigationLinks": 6,
+    "imagesChecked": 0
+  },
+  {
+    "route": "/glass",
+    "width": 979,
+    "documentWidth": 979,
+    "navigationLinks": 6,
+    "imagesChecked": 0
+  },
+  {
+    "route": "/adventures",
+    "width": 1440,
+    "desktopPixelsUnchanged": true
+  },
+  {
+    "route": "/adventures",
+    "width": 320,
+    "documentWidth": 320,
+    "navigationLinks": 6,
+    "imagesChecked": 4
+  },
+  {
+    "route": "/adventures",
+    "width": 390,
+    "documentWidth": 390,
+    "navigationLinks": 6,
+    "imagesChecked": 4
+  },
+  {
+    "route": "/adventures",
+    "width": 430,
+    "documentWidth": 430,
+    "navigationLinks": 6,
+    "imagesChecked": 4
+  },
+  {
+    "route": "/adventures",
+    "width": 768,
+    "documentWidth": 768,
+    "navigationLinks": 6,
+    "imagesChecked": 4
+  },
+  {
+    "route": "/adventures",
+    "width": 979,
+    "documentWidth": 979,
+    "navigationLinks": 6,
+    "imagesChecked": 4
+  },
+  {
+    "route": "/wild-mushrooms",
+    "width": 1440,
+    "desktopPixelsUnchanged": true
+  },
+  {
+    "route": "/wild-mushrooms",
+    "width": 320,
+    "documentWidth": 320,
+    "navigationLinks": 6,
+    "imagesChecked": 12
+  },
+  {
+    "route": "/wild-mushrooms",
+    "width": 390,
+    "documentWidth": 390,
+    "navigationLinks": 6,
+    "imagesChecked": 12
+  },
+  {
+    "route": "/wild-mushrooms",
+    "width": 430,
+    "documentWidth": 430,
+    "navigationLinks": 6,
+    "imagesChecked": 12
+  },
+  {
+    "route": "/wild-mushrooms",
+    "width": 768,
+    "documentWidth": 768,
+    "navigationLinks": 6,
+    "imagesChecked": 12
+  },
+  {
+    "route": "/wild-mushrooms",
+    "width": 979,
+    "documentWidth": 979,
+    "navigationLinks": 6,
+    "imagesChecked": 12
+  },
+  {
+    "route": "/make-your-own-sourdough-starter",
+    "width": 1440,
+    "desktopPixelsUnchanged": true
+  },
+  {
+    "route": "/make-your-own-sourdough-starter",
+    "width": 320,
+    "documentWidth": 320,
+    "navigationLinks": 6,
+    "imagesChecked": 8
+  },
+  {
+    "route": "/make-your-own-sourdough-starter",
+    "width": 390,
+    "documentWidth": 390,
+    "navigationLinks": 6,
+    "imagesChecked": 8
+  },
+  {
+    "route": "/make-your-own-sourdough-starter",
+    "width": 430,
+    "documentWidth": 430,
+    "navigationLinks": 6,
+    "imagesChecked": 8
+  },
+  {
+    "route": "/make-your-own-sourdough-starter",
+    "width": 768,
+    "documentWidth": 768,
+    "navigationLinks": 6,
+    "imagesChecked": 8
+  },
+  {
+    "route": "/make-your-own-sourdough-starter",
+    "width": 979,
+    "documentWidth": 979,
+    "navigationLinks": 6,
+    "imagesChecked": 8
+  },
+  {
+    "route": "/single-post/exploring-with-edna-episode-44-front-end-work-part-3-of-3",
+    "width": 1440,
+    "desktopPixelsUnchanged": true
+  },
+  {
+    "route": "/single-post/exploring-with-edna-episode-44-front-end-work-part-3-of-3",
+    "width": 320,
+    "documentWidth": 320,
+    "navigationLinks": 6,
+    "imagesChecked": 0
+  },
+  {
+    "route": "/single-post/exploring-with-edna-episode-44-front-end-work-part-3-of-3",
+    "width": 390,
+    "documentWidth": 390,
+    "navigationLinks": 6,
+    "imagesChecked": 0
+  },
+  {
+    "route": "/single-post/exploring-with-edna-episode-44-front-end-work-part-3-of-3",
+    "width": 430,
+    "documentWidth": 430,
+    "navigationLinks": 6,
+    "imagesChecked": 0
+  },
+  {
+    "route": "/single-post/exploring-with-edna-episode-44-front-end-work-part-3-of-3",
+    "width": 768,
+    "documentWidth": 768,
+    "navigationLinks": 6,
+    "imagesChecked": 0
+  },
+  {
+    "route": "/single-post/exploring-with-edna-episode-44-front-end-work-part-3-of-3",
+    "width": 979,
+    "documentWidth": 979,
+    "navigationLinks": 6,
+    "imagesChecked": 0
+  },
+  {
+    "mobileSubmenu": "passed",
+    "mobileNavigation": "passed"
+  },
+  {
+    "device": "iPhone 13",
+    "touchSubmenu": "passed",
+    "documentFitsViewport": true
+  }
+]

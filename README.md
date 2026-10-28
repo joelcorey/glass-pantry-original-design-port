@@ -20,6 +20,8 @@ npm start
 
 On Vercel, use `npm run build` as the Build Command so asset preparation runs. Binary assets are served as static CDN files; existing `/_archive/` URLs redirect to them. The function bundle excludes the original `data/objects/` archive and static binaries. The verified trace is approximately 393 MB, below the 5 GB limit; projects using the standard 250 MB limit still need Vercel Large Functions enabled.
 
+The original desktop layout is preserved. Below 980 pixels, `public/responsive.css` and `public/responsive.js` reflow the existing Wix components into a readable column, preserve image proportions, and wrap the original navigation with accessible submenu controls. Original artwork, fonts, colors, and content remain in place.
+
 The complete original route list is in `data/routes.json`. See `PORT_REPORT.md` for verification status and limitations.
 
 ## Verification
@@ -31,6 +33,8 @@ node scripts/check-image-routing.cjs
 node scripts/check-behavior.cjs
 # With npm start running:
 node scripts/check-static-delivery.cjs
+# Chrome installed locally (or set CHROMIUM_PATH):
+node scripts/check-responsive.mjs
 # In a second terminal, with the website running:
 npx playwright install chromium
 npm run verify

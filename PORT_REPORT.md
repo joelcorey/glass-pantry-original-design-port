@@ -1,5 +1,12 @@
 # Glass Pantry preservation port
 
+## Responsive preservation update (October 28, 2026)
+
+A narrow-screen layout layer now reflows the original Wix mesh below 980 px. It retains original assets, typefaces, colors and content; desktop styling stays intact. The original navigation wraps into touch targets with working submenu controls. Media retain their original proportions, recipe collections stack, and desktop grid spacers no longer create mobile gaps. The About introduction precedes its contact form on narrow screens.
+
+`node scripts/check-responsive.mjs` passes 56 checks across nine page types: home, featured recipes, About, categories, glass, adventures, mushroom recipes, sourdough starter, and a blog post. It checks widths 320, 390, 430, 768 and 979 px, navigation tap targets, image bounds, submenu toggling, and navigation, including iPhone 13 touch emulation. At 1440 px, screenshots with the new stylesheet enabled and disabled are pixel-identical; desktop element bounds and type sizes also restore after resizing. Screenshots and results are in `verification/responsive/` and `verification/responsive-results.json`. The route regression still passes all 1,412 captured HTML routes (1,408 documents and four redirects). Existing uncaptured iframe/service content is outside this responsive change; no claim is made that those original capture gaps are repaired. Live Vercel deployment remains unverified.
+
+
 ## Vercel packaging fix (October 28, 2026)
 
 The complete archive exceeded Vercel's 5 GB function limit, leaving an earlier deployment live. Binary captures now build into static `public/archive-assets/` files, while rewritable text is stored compressed in `data/runtime/`. Original archive URLs redirect to static files. The traced function contains 392,652,855 bytes and no binary captures. Build, 219 homepage image routing checks, all-manifest output existence checks, and production HTTP checks for image/font bytes and video range requests pass locally. The updated deployment has not yet been verified on Vercel.

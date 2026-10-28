@@ -21,6 +21,8 @@ export async function GET(request:NextRequest) {
  if(/text\/|javascript|json|svg/.test(entry.mime)) {
   body=localize(body.toString('utf8'),origin);
   if(entry.mime==='text/html'&&!archive) {
+   body=body.replace('</head>','<link rel="stylesheet" href="/responsive.css"></head>');
+   body=body.replace('</body>','<script src="/responsive.js"></script></body>');
    // Preserve full document navigations: Wix SPA routing expects live Wix services.
    body=body.replace('</body>',`<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(a&&a.origin===location.origin&&!a.pathname.startsWith('/_archive/')&&a.pathname!==location.pathname&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&a.target!=='_blank'){e.preventDefault();e.stopImmediatePropagation();location.href=a.href}},true)</script></body>`);
   }
