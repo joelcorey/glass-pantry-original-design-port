@@ -16,7 +16,9 @@ npm run build
 npm start
 ```
 
-Keep `data/` with the application. It contains approximately 7.6 GB of original response bodies; it is required at runtime. No connection to the source crawl is required to run the port.
+`npm run build` prepares the original captures for deployment: binary assets go into `public/archive-assets/`, and compressed text goes into `data/runtime/`. Both directories are generated and ignored by Git. Keep them with the production application, along with `data/manifest.json` and `data/static-extensions.json`. No connection to the source crawl is required.
+
+On Vercel, use `npm run build` as the Build Command so asset preparation runs. Binary assets are served as static CDN files; existing `/_archive/` URLs redirect to them. The function bundle excludes the original `data/objects/` archive and static binaries. The verified trace is approximately 393 MB, below the 5 GB limit; projects using the standard 250 MB limit still need Vercel Large Functions enabled.
 
 The complete original route list is in `data/routes.json`. See `PORT_REPORT.md` for verification status and limitations.
 
@@ -25,6 +27,10 @@ The complete original route list is in `data/routes.json`. See `PORT_REPORT.md` 
 ```bash
 npm run build
 node scripts/check-routes.cjs
+node scripts/check-image-routing.cjs
+node scripts/check-behavior.cjs
+# With npm start running:
+node scripts/check-static-delivery.cjs
 # In a second terminal, with the website running:
 npx playwright install chromium
 npm run verify

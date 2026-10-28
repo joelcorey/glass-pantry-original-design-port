@@ -29,11 +29,12 @@ const manifest = JSON.parse(fs.readFileSync('data/manifest.json'));
   for(const url of urls) {
    assert.equal(new URL(url).origin,scenario.origin);
    const image=await GET(new NextRequest(url,{headers:scenario.headers}));
-   assert.equal(image.status,200,url);
-   assert.match(image.headers.get('content-type'),/^image\//);
+   assert.equal(image.status,307,url);
+   const target=image.headers.get('location');
+   assert.match(target,/^\/archive-assets\/[a-f0-9]{64}\.(avif|jpg|png|gif|webp|bmp)$/);
    const original='https://'+new URL(url).pathname.slice('/_archive/'.length);
    const entry=manifest[original];assert.ok(entry,original);
-   assert.deepEqual(Buffer.from(await image.arrayBuffer()),fs.readFileSync('data/objects/'+entry.file));
+   assert.deepEqual(fs.readFileSync('public'+target),fs.readFileSync('data/objects/'+entry.file));
   }
   results.push({scenario:scenario.name,origin:scenario.origin,images:images.length,imageURLs:urls.size,status:'passed'});
  }

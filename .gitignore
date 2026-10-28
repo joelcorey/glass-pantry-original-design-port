@@ -3,3 +3,6 @@ node_modules/
 *.tsbuildinfo
 core
 core.*
+public/archive-assets/
+data/runtime/
+data/static-extensions.json

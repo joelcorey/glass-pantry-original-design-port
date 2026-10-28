@@ -1,44 +1,32 @@
 [
   {
     "mime": "font/woff2",
-    "test": "Original asset served",
+    "test": "Original asset served or redirected to identical static bytes",
     "status": "passed"
   },
   {
     "mime": "text/css",
-    "test": "Original asset served",
+    "test": "Original asset served or redirected to identical static bytes",
     "status": "passed"
   },
   {
     "mime": "application/javascript",
-    "test": "Original asset served",
+    "test": "Original asset served or redirected to identical static bytes",
     "status": "passed"
   },
   {
     "mime": "image/avif",
-    "test": "Original asset served",
+    "test": "Original asset served or redirected to identical static bytes",
     "status": "passed"
   },
   {
     "mime": "image/jpeg",
-    "test": "Original asset served",
+    "test": "Original asset served or redirected to identical static bytes",
     "status": "passed"
   },
   {
     "mime": "video/mp4",
-    "test": "Original asset served",
-    "status": "passed"
-  },
-  {
-    "test": "bytes=0-99",
-    "status": "passed"
-  },
-  {
-    "test": "bytes=-100",
-    "status": "passed"
-  },
-  {
-    "test": "bytes=2011219-",
+    "test": "Original asset served or redirected to identical static bytes",
     "status": "passed"
   },
   {

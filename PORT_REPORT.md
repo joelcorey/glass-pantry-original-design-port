@@ -1,5 +1,10 @@
 # Glass Pantry preservation port
 
+## Vercel packaging fix (October 28, 2026)
+
+The complete archive exceeded Vercel's 5 GB function limit, leaving an earlier deployment live. Binary captures now build into static `public/archive-assets/` files, while rewritable text is stored compressed in `data/runtime/`. Original archive URLs redirect to static files. The traced function contains 392,652,855 bytes and no binary captures. Build, 219 homepage image routing checks, all-manifest output existence checks, and production HTTP checks for image/font bytes and video range requests pass locally. The updated deployment has not yet been verified on Vercel.
+
+
 ## Delivery and verification status
 
 The Next.js App Router / TypeScript implementation and production build are available. All captured site documents and recoverable response assets are included locally. **This delivery has not met the requested visual and interactive definition of done:** this environment prevents local HTTP listeners and Chromium processes, and its computer-use browser is unavailable. No screenshot match or browser interaction success is claimed.

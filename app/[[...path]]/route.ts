@@ -1,5 +1,5 @@
 import { NextRequest } from 'next/server';
-import { lookup, read, localize } from '../../lib/archive';
+import { lookup, read, localize, staticAsset } from '../../lib/archive';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
 export async function GET(request:NextRequest) {
@@ -15,6 +15,8 @@ export async function GET(request:NextRequest) {
  if(!entry && !archive) entry=lookup(original.split('?')[0]);
  if(!entry) return new Response('Not captured in the original crawl.',{status:404});
  if(entry.location) return new Response(null,{status:entry.status || 301,headers:{Location:localize(entry.location,origin)}});
+ const asset=staticAsset(entry);
+ if(asset) return new Response(null,{status:307,headers:{Location:asset,'Cache-Control':'public, max-age=3600'}});
  let body:Buffer|string=read(entry);
  if(/text\/|javascript|json|svg/.test(entry.mime)) {
   body=localize(body.toString('utf8'),origin);
